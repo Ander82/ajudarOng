@@ -6,6 +6,11 @@
   "engines": {
     "npm": "14.x"
   },
+   "buildpacks": [
+    {
+      "url": "https://github.com/heroku-buildpack-nodejs"
+    }
+  ],
   "scripts": {
     "start": "node index.js"
   },
